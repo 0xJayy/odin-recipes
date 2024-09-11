@@ -17,3 +17,7 @@ h1 {
 .flank-steak-para {
   color: grey;
 }
+
+ul {
+  text-decoration: none;
+}
