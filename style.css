@@ -45,10 +45,11 @@ body {
 }
 
 .img-size {
+  box-sizing: border-box;
   height: 100px;
   width: 100px;
   background-color: grey;
-  padding: 5px;
+  padding: 2px;
   border: 2px solid black;
   position: relative;
   top: 50px;
