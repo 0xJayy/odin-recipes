@@ -52,12 +52,6 @@ li {
   color: rgb(0, 0, 0);
 }
 
-.img-size {
-  box-sizing: border-box;
-  height: 150px;
-  width: 150px;
-  margin-top: 30px;
-}
 a {
   text-decoration: none;
   color: black;
@@ -111,17 +105,17 @@ a {
   padding-left: 5px;
   font-size: 20px;
 }
-.odin-recipes-list {
-  list-style-type: none;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
-
-.index-container {
-  border: 2px solid black;
-  display: block;
-  height: fit-content;
-  width: fit-content;
+.flex-index-container {
+  display: flex;
   padding: 10px;
   margin-top: 60px;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .top-box {
@@ -135,9 +129,23 @@ a {
   margin-top: 10px;
   height: 90.875px;
 }
+.index-bottom-box {
+  background-color: grey;
+  padding: 15px;
+  margin-top: 400px;
+  height: 90.875px;
+}
 
 .main-container-1,
 .main-container-2,
 .main-container-3 {
   border-radius: 15px;
+}
+
+.first-item,
+.second-item,
+.third-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
